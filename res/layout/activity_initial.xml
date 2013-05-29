@@ -3,13 +3,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <TextView
+    <Spinner
+        android:id="@+id/spinner1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:padding="@dimen/padding_medium"
-        android:text="@string/hello_world"
-        tools:context=".InitialActivity" />
+        android:layout_marginTop="116dp" />
+
+    <Button
+        android:id="@+id/btSelObra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/spinner1"
+        android:layout_marginRight="42dp"
+        android:text="Selecione Obra" />
+
+    <Button
+        android:id="@+id/btNovaObra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btSelObra"
+        android:layout_marginBottom="73dp"
+        android:text="Nova Obra" />
 
 </RelativeLayout>

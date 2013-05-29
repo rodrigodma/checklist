@@ -21,10 +21,13 @@ public final class R {
     }
     public static final class id {
         public static final int btCriarObra=0x7f080006;
+        public static final int btNovaObra=0x7f080009;
+        public static final int btSelObra=0x7f080008;
         public static final int etDataInicio=0x7f080005;
         public static final int etNovaObra=0x7f080001;
         public static final int etQtdeBalanca=0x7f080003;
-        public static final int menu_settings=0x7f080007;
+        public static final int menu_settings=0x7f08000a;
+        public static final int spinner1=0x7f080007;
         public static final int tvDataInicio=0x7f080004;
         public static final int tvNovaObra=0x7f080000;
         public static final int tvQtdeBalanca=0x7f080002;
