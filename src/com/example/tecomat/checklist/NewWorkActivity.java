@@ -9,7 +9,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class ChecklistActivity extends Activity {
+public class NewWorkActivity extends Activity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
