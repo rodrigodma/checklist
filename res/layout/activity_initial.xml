@@ -3,28 +3,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <Spinner
-        android:id="@+id/spinner1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="116dp" />
-
     <Button
         android:id="@+id/btSelObra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/spinner1"
-        android:layout_marginRight="42dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="40dp"
         android:text="Selecione Obra" />
 
     <Button
         android:id="@+id/btNovaObra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/btSelObra"
-        android:layout_marginBottom="73dp"
+        android:layout_alignBaseline="@+id/btSelObra"
+        android:layout_alignBottom="@+id/btSelObra"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="32dp"
         android:text="Nova Obra" />
+
+    <TextView
+        android:id="@+id/Visita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btNovaObra"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="56dp"
+        android:text="Visitação"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/slObras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btSelObra"
+        android:layout_marginTop="30dp" />
 
 </RelativeLayout>
