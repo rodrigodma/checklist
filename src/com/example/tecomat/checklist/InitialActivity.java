@@ -19,9 +19,21 @@ public class InitialActivity extends Activity implements OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_initial);
         
-        Button button = (Button) findViewById(R.id.btNovaObra);
-        
+        Button button = (Button) findViewById(R.id.btNovaObra);        
         button.setOnClickListener(this);
+        
+        final Intent verObraIntent = new Intent(this, SeeWorkActivity.class);
+        
+        Button sel_button = (Button) findViewById(R.id.btSelObra);
+        sel_button.setOnClickListener(new Button.OnClickListener() {
+
+			@Override
+			public void onClick(View arg0) {
+				
+				startActivity(verObraIntent);
+			}
+        	
+        });
     }
     
     @Override
